@@ -25,7 +25,6 @@ In this lab, we will practice using for-loops and strings. Each problem will req
 9. Write a program that checks if a given number is a prime number. A prime number is a number that is only divisible by 1 and itself. The user enters a number and the programs prints out whether the number is a prime number or not. (+15 points)
 
 10. Write a program that prints out the prime numbers less than 1000. (+20 points)
-
 ## Example Outputs
 
 ### Problem 1
