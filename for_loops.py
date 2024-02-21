@@ -49,21 +49,32 @@ elif user == 7:
 elif user == 8:
     print("Running Problem 8: ")
     import random
-    dice = random.randint(1, 6)
-    diceRoll = random.randrange(1, 1001)
-
-    if dice == 1:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
-    if dice == 2:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
-    if dice == 3:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
-    if dice == 4:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
-    if dice == 5:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
-    if dice == 6:
-        print(f'{dice}', "was rolled", f'{diceRoll}', "times")
+    dice1 = 0
+    dice2 = 0
+    dice3 = 0
+    dice4 = 0
+    dice5 = 0
+    dice6 = 0
+    for i in range(1, 1001):
+        diceRoll = random.randrange(1, 7)
+        if diceRoll == 1:
+            dice1 += 1
+        elif diceRoll == 2:
+            dice2 += 1
+        elif diceRoll == 3:
+            dice3 += 1
+        elif diceRoll == 4:
+            dice4 += 1
+        elif diceRoll == 5:
+            dice5 += 1
+        elif diceRoll == 6:
+            dice6 += 1
+    print("1 was rolled", f'{dice1}', "times")
+    print("2 was rolled", f'{dice2}', "times")
+    print("3 was rolled", f'{dice3}', "times")
+    print("4 was rolled", f'{dice4}', "times")
+    print("5 was rolled", f'{dice5}', "times")
+    print("6 was rolled", f'{dice6}', "times")
 
 elif user == 9:
     print("Running Problem 9: ")
